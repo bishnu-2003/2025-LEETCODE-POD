@@ -1,0 +1,17 @@
+Problem link: https://leetcode.com/problems/minimize-xor
+Solution: class Array
+    def da2n = inject(0) {|res, v| (res << 1) + v }
+end
+
+def minimize_xor(num1, num2)
+    nbits = num2.digits(2).count(1)
+    n1m = num1.digits(2).reverse.collect {|d|
+        d.zero? ? 0 : (nbits.positive? ? (nbits -= 1; 1) : 0)
+    }.da2n
+    m = 0
+    n2m = nbits.positive? ? (nbits.times.inject(0) {|res, i| 
+        m += 1 while num1[m] == 1
+        res | (1 << ((m += 1) - 1))
+    } ) : 0
+    n1m | n2m
+end
