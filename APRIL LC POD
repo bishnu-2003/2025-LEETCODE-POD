@@ -1,6 +1,6 @@
 Problem link : https://leetcode.com/problems/sum-of-all-subset-xor-totals
 Solution : class Solution {
-public:
+public:  
     int subsetXORSum(vector<int>& nums) {
         int total = 0;
         for (int num : nums) {
