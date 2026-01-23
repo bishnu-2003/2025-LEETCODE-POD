@@ -7,7 +7,7 @@ public:
     long long countPowerfulIntegers(long long x, int limit, string suffix) {
         // Convert 'x' to a string representation
         string xStr = to_string(x);
-        const int xSize = (int)xStr.size();
+        const int xSize = (int)xStr.size(); 
         
         // Initialize memoization array with -1 current_digits
         memset(memoization, -1, sizeof memoization);
