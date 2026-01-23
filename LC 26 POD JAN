@@ -1,4 +1,4 @@
-question: Maximun level sum of binary tree
+ question: Maximun level sum of binary tree
 solution:
 
 import java.util.*;
