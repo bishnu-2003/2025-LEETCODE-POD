@@ -14,6 +14,7 @@ class Solution {
         int maxLevel = 1;
         int maxSum = Integer.MIN_VALUE;
 
+
         while (!queue.isEmpty()) {
             int size = queue.size();
             int levelSum = 0;
