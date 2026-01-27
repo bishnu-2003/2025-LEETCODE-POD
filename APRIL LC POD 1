@@ -7,7 +7,7 @@ public:
             int index = i + questions[i][1] + 1;
             if (index < questions.size()) {
                 dp[i] = dp[index] + questions[i][0];
-            } else {
+            } else { 
                 dp[i] = questions[i][0];
             }
             if (i < questions.size() - 1) {
