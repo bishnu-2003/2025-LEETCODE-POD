@@ -16,6 +16,7 @@ public:
         vector<int> primes;
         for (int i = left; i <= right; ++i) {
             if (sieve[i]) {
+
                 primes.push_back(i);
             }
         }
