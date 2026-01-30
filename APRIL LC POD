@@ -7,5 +7,6 @@ public:
             total |= num;  // Step 1: Compute bitwise OR of all numbers
         }
         return total * (1 << (nums.size() - 1));  // Step 2: Multiply by 2^(n-1)
+
     }
 };
