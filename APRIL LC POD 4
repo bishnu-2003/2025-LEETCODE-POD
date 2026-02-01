@@ -15,6 +15,7 @@ Solution : class Solution(object):
             right_lca, right_depth = dfs(node.right, depth + 1)
 
             if left_depth > right_depth:
+
                 # Left subtree is deeper → propagate its LCA and depth upward
                 return (left_lca, left_depth)
             elif right_depth > left_depth:
