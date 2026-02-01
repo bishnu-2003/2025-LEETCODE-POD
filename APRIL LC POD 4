@@ -21,6 +21,7 @@ Solution : class Solution(object):
             elif right_depth > left_depth:
                 # Right subtree is deeper → propagate its LCA and depth upward
                 return (right_lca, right_depth)
+
             else:
                 # Both subtrees are at the same depth → current node is LCA
                 return (node, left_depth)
