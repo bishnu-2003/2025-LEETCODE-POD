@@ -8,6 +8,7 @@ Solution : class Solution(object):
         def dfs(node, depth):
 
             if not node:
+
                 # If node is None, return (None, current depth)
                 return (None, depth)
             
