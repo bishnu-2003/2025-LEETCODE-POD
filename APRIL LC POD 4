@@ -1,4 +1,5 @@
 Problem link: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves
+
 Solution : class Solution(object):
     def lcaDeepestLeaves(self, root):
         """
