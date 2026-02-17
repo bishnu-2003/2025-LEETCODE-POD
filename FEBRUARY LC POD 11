@@ -14,7 +14,8 @@ public:
         }
     }
 
-    string removeOccurrences(string& s, string& part) {
+   
+string removeOccurrences(string& s, string& part) {
         const int pz=part.size(), n=s.size();
         preKMP(part, pz);
         string ans;
