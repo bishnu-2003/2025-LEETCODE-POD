@@ -2,7 +2,7 @@ Problem link: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-le
 Solution : class Solution(object):
     def lcaDeepestLeaves(self, root):
         """
-        :type root: Optional[TreeNode]
+:type root: Optional[TreeNode]
 
         :rtype: Optional[TreeNode]
         """
