@@ -11,8 +11,6 @@ Solution : class Solution(object):
             if not node:
 
 
-
-
            return (None, depth)
             
             # Recursively traverse left and right children
