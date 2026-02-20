@@ -28,6 +28,6 @@ Solution : class Solution(object):
                 # Both subtrees are at the same depth → current node is LCA
                 return (node, left_depth)
 
-        # Start recursive DFS
+        
         lca_node, _ = dfs(root, 0)
         return lca_node
