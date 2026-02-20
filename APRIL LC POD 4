@@ -10,7 +10,6 @@ Solution : class Solution(object):
 
             if not node:
 
-                # If node is None, return (None, current depth)
 
 
 
