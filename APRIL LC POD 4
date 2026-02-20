@@ -13,7 +13,7 @@ Solution : class Solution(object):
 
 
 
-                return (None, depth)
+           return (None, depth)
             
             # Recursively traverse left and right children
             left_lca, left_depth = dfs(node.left, depth + 1)
