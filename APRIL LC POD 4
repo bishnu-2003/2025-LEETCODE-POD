@@ -4,6 +4,7 @@ Solution : class Solution(object):
     def lcaDeepestLeaves(self, root):
         """
         :type root: Optional[TreeNode]
+
         :rtype: Optional[TreeNode]
         """
         def dfs(node, depth):
