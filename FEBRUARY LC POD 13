@@ -13,6 +13,7 @@ public:
             pq.pop();
             if(x>=k){return op;}
             double n = 2*(double)min(x,y)+(double)max(x,y);
+
             pq.push(n);
             ++op;
         }
