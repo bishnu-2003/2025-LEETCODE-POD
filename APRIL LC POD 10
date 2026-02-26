@@ -1,3 +1,4 @@
+
 Problem link: https://leetcode.com/problems/count-the-number-of-powerful-integers
 Solution: int64_t memoization[17][2];
 
