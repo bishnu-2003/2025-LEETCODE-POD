@@ -1,4 +1,6 @@
-Problem link: https://leetcode.com/problems/special-array-i
+
+Problem link: https://leetcode.com/problems/special-array-ii
+
 Solution : class Solution {
 public:
     bool isArraySpecial(vector<int>& nums) {
