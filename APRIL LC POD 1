@@ -1,5 +1,5 @@
 Problem link: https://leetcode.com/problems/solving-questions-with-brainpower
-Solution: class Solution {
+Solution: class Solution { time for pda
 public:
 
     long long mostPoints(vector<vector<int>>& questions) {
