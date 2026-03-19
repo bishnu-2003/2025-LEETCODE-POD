@@ -2,6 +2,7 @@
 Problem link : https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii
 Solution :class Solution {
 public:
+io
     long long maximumTripletValue(vector<int>& nums) {
         int maxi = INT_MIN, diff = 0, n = nums.size();
         long long res = 0;
