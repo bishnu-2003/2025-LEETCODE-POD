@@ -1,4 +1,4 @@
-Problem link: https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i
+Problem link: https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i abstract
 Solution :var maximumTripletValue = function(nums) {
     let n = nums.length;
     if (n < 3) return 0;
